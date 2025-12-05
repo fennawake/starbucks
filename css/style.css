@@ -58,6 +58,24 @@ button:hover {
     justify-content: flex-end;
 }
 
+.imagem-copo {
+    width: 100%;
+    height:  100%;
+    max-width: 400px;
+    max-height: 580px;
+}
+
+.circulo {
+    z-index: -1;
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+}
+
 .menu {
     display: flex;
     justify-content: center;
